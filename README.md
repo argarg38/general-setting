@@ -16,6 +16,7 @@ Claude Code 공통 설정 (MCP 서버 + 플러그인).
 1. 이 레포에서 `claude` 실행 → 마켓플레이스/플러그인 설치 및 프로젝트 MCP 서버 승인 프롬프트를 수락.
 2. `/mcp` 실행 → `supabase`, `vercel` 각각 **Authenticate** 선택해 브라우저 OAuth 로그인.
 3. oh-my-claudecode 초기 설정: `/oh-my-claudecode:omc-setup`.
+   이후 팀 모드는 `/team` 으로 실행합니다 (예: `/team 3:executor "타입 에러 전부 수정"`, `/team ralph "유저 관리 REST API 구현"`).
 4. Chrome DevTools MCP는 Node.js 20+ 와 로컬 Chrome이 필요합니다.
 
 ### 선택 옵션
